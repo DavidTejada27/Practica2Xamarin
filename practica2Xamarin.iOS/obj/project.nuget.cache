@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hyItSahCAAja6inKD23VEslzhnyo/491DhmbPyknQrfyYcchLE4yS10wpjYQUqGPv/jbE4uaE7uecrRmZUeFLQ==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\David Rafael Tejada\\source\\repos\\practica2Xamarin\\practica2Xamarin.iOS\\practica2Xamarin.iOS.csproj",
+  "expectedPackageFiles": [
+    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
