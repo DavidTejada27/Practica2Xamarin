@@ -17,9 +17,7 @@
 <p align="left">
   <img src="https://github.com/DavidTejada27/Practica2Xamarin/blob/main/Welcome.png" width="350">
 </p>
-<p align="left">
-  <img src="https://github.com/DavidTejada27/Practica2Xamarin/blob/main/MasterDetailPage.png" width="350">
-</p>
+
 <p align="left">
   <img src="https://github.com/DavidTejada27/Practica2Xamarin/blob/main/DiscoveryPage.png" width="350">
 </p>
