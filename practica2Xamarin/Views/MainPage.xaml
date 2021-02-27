@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practica2Xamarin.Views.MainPage">
+
+    <ContentPage Title="Home" BackgroundColor="LightGray">
+        
+    </ContentPage >
+
+    <ContentPage Title="Discovery" BackgroundColor="LightGray" >
+        <Grid ColumnDefinitions="Auto,Auto" RowDefinitions="Auto,Auto,Auto" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" RowSpacing="20" ColumnSpacing="20">
+            <Frame BackgroundColor="White" Grid.Row="0" Grid.Column="0" Padding="30">
+                <StackLayout >
+                    <Image Source="{Binding BarAndHotelsMenuOption.Image}"/>
+                    <Label Text ="{Binding BarAndHotelsMenuOption.Title}" HorizontalOptions="Center"/>
+                    <Label Text ="{Binding BarAndHotelsMenuOption.Place}" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="White" Grid.Row="0" Grid.Column="1" Padding="30">
+                <StackLayout>
+                    <Image Source="{Binding FineDiningMenuOption.Image}" />
+                    <Label Text ="{Binding FineDiningMenuOption.Title}" HorizontalOptions="Center"/>
+                    <Label Text ="{Binding FineDiningMenuOption.Place}" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="White" Grid.Row="1" Grid.Column="0" Padding="30">
+                <StackLayout>
+                    <Image Source="{Binding CafesMenuOption.Image}"/>
+                    <Label Text ="{Binding CafesMenuOption.Title}" HorizontalOptions="Center"/>
+                    <Label Text ="{Binding CafesMenuOption.Place}" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame  Grid.Row="1" Grid.Column="1" Padding="30" >
+                <StackLayout>
+                    <Image Source="{Binding NearbyMenuOption.Image}"/>
+                    <Label Text ="{Binding NearbyMenuOption.Title}" HorizontalOptions="Center"/>
+                    <Label Text ="{Binding NearbyMenuOption.Place}" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="White" Grid.Row="2" Grid.Column="0" Padding="30">
+                <StackLayout>
+                    <Image Source="{Binding FastFoodsMenuOption.Image}"/>
+                    <Label Text ="{Binding FastFoodsMenuOption.Title}" HorizontalOptions="Center"/>
+                    <Label Text ="{Binding FastFoodsMenuOption.Place}" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="White" Grid.Row="2" Grid.Column="1" Padding="30">
+                <StackLayout>
+                    <Image Source="{Binding FeaturedFoodsMenuOption.Image}"/>
+                    <Label Text ="{Binding FeaturedFoodsMenuOption.Title}" HorizontalOptions="Center"/>
+                    <Label Text ="{Binding FeaturedFoodsMenuOption.Place}" HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+
+        </Grid>
+    </ContentPage>
+
+    <ContentPage Title="Bookmark" BackgroundColor="LightGray">
+        
+    </ContentPage>
+
+    <ContentPage Title="Top Foodie" BackgroundColor="LightGray">
+       
+    </ContentPage>
+
+    <ContentPage Title="Profile" BackgroundColor="LightGray">
+        
+    </ContentPage>
+</TabbedPage>

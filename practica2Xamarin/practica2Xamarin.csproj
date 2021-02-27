@@ -16,11 +16,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="loginPage.xaml">
+    <EmbeddedResource Update="Views\loginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="registerPage.xaml">
+    <EmbeddedResource Update="Views\registerPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
   </ItemGroup>
 </Project>
