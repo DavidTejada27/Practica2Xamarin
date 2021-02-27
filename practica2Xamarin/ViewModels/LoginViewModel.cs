@@ -17,16 +17,16 @@ namespace practica2Xamarin.ViewModels
 
         public LoginViewModel() 
         {
-            LoginCommand = new Command(Onlogin);
+            LoginCommand = new Command(OnLogin);
             RegisterCommand = new Command(OnRegister);
         }
 
         private async void OnRegister()
         {
-            await App.Current.MainPage.Navigation.PushAsync(new registerPage());
+            await App.Current.MainPage.Navigation.PushAsync(new RegisterPage());
         }
 
-        private async void Onlogin()
+        private async void OnLogin()
         {
             if (string.IsNullOrEmpty(Email) | string.IsNullOrEmpty(Password))
             {

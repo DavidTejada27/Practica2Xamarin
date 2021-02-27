@@ -11,7 +11,7 @@ namespace practica2Xamarin
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new loginPage());
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()

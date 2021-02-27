@@ -11,9 +11,9 @@ using Xamarin.Forms.Xaml;
 namespace practica2Xamarin.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class registerPage : ContentPage
+    public partial class RegisterPage : ContentPage
     {
-        public registerPage()
+        public RegisterPage()
         {
             InitializeComponent();
             BindingContext = new RegisterViewModel();

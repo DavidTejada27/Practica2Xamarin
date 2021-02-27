@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="practica2Xamarin.Views.registerPage">
+             x:Class="practica2Xamarin.Views.RegisterPage">
     <ContentPage.Content>
         <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*" VerticalOptions="Center">
             <Image Source="LogoIntec" Grid.Row="1" HorizontalOptions="Center" Margin="100,0,100,0"/>

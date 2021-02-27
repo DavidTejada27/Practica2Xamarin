@@ -12,9 +12,9 @@ namespace practica2Xamarin.Views
 
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class loginPage : TabbedPage
+    public partial class LoginPage : TabbedPage
     {
-        public loginPage()
+        public LoginPage()
         {
             InitializeComponent();
             BindingContext = new LoginViewModel();
